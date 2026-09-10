@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000260] (omni_follower) JobQueued: {'identifier': 'omni_follower', 'dependencies': OrderedDict()}
+[0.001707] (omni_follower) JobStarted: {'identifier': 'omni_follower'}
+[0.099591] (-) TimerEvent: {}
+[0.200229] (-) TimerEvent: {}
+[0.300851] (-) TimerEvent: {}
+[0.401680] (-) TimerEvent: {}
+[0.502344] (-) TimerEvent: {}
+[0.603118] (-) TimerEvent: {}
+[0.703951] (-) TimerEvent: {}
+[0.804557] (-) TimerEvent: {}
+[0.905171] (-) TimerEvent: {}
+[1.005828] (-) TimerEvent: {}
+[1.106438] (-) TimerEvent: {}
+[1.207034] (-) TimerEvent: {}
+[1.307625] (-) TimerEvent: {}
+[1.408227] (-) TimerEvent: {}
+[1.509016] (-) TimerEvent: {}
+[1.609687] (-) TimerEvent: {}
+[1.710507] (-) TimerEvent: {}
+[1.811323] (-) TimerEvent: {}
+[1.912042] (-) TimerEvent: {}
+[2.012767] (-) TimerEvent: {}
+[2.113462] (-) TimerEvent: {}
+[2.213945] (-) TimerEvent: {}
+[2.314388] (-) TimerEvent: {}
+[2.414924] (-) TimerEvent: {}
+[2.515321] (-) TimerEvent: {}
+[2.615791] (-) TimerEvent: {}
+[2.716261] (-) TimerEvent: {}
+[2.793057] (omni_follower) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sho/ros_omni_1/ros_ws/build/omni_follower/build', '--no-deps', 'symlink_data'], 'cwd': '/home/sho/ros_omni_1/ros_ws/build/omni_follower', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ja:en', 'USER': 'sho', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'STM32CubeMX_PATH': '/home/sho/STM32CubeMX', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/sho', 'OLDPWD': '/home/sho/ros_omni_1/ros_ws/src/omni_follower', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'SYSTEMD_EXEC_PID': '2969', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sho', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sho', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'CLANG_GCC_CMSIS_COMPILER': '/opt/st/stm32cubeclt/st-arm-clang', 'PATH': '/opt/ros/jazzy/bin:/home/sho/.local/bin:/opt/st/stm32cubeclt:/opt/st/stm32cubeclt/STM32CubeProgrammer/bin:/opt/st/stm32cubeclt/STLink-gdb-server/bin:/opt/st/stm32cubeclt/CMake/bin:/opt/st/stm32cubeclt/Ninja/bin:/opt/st/stm32cubeclt/st-arm-clang/bin:/opt/st/stm32cubeclt/GNU-tools-for-STM32/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sho/.lmstudio/bin:/home/sho/.lmstudio/bin', 'SESSION_MANAGER': 'local/sho-ThinkPad-E14-Gen-7:@/tmp/.ICE-unix/2931,unix/sho-ThinkPad-E14-Gen-7:/tmp/.ICE-unix/2931', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f8384ded_4ee6_4428_b850_048cb107c77b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KK07U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'GCC_TOOLCHAIN_ROOT': '/opt/st/stm32cubeclt/GNU-tools-for-STM32/bin', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sho/ros_omni_1/ros_ws/build/omni_follower', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sho/ros_omni_1/ros_ws/build/omni_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sho/ros_omni_1/ros_ws/install/omni_follower/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.819085] (-) TimerEvent: {}
+[2.919429] (-) TimerEvent: {}
+[3.020015] (-) TimerEvent: {}
+[3.120392] (-) TimerEvent: {}
+[3.220873] (-) TimerEvent: {}
+[3.222719] (omni_follower) StdoutLine: {'line': b'running develop\n'}
+[3.321047] (-) TimerEvent: {}
+[3.417336] (omni_follower) StdoutLine: {'line': b'running egg_info\n'}
+[3.417611] (omni_follower) StdoutLine: {'line': b'creating omni_follower.egg-info\n'}
+[3.421137] (-) TimerEvent: {}
+[3.436106] (omni_follower) StdoutLine: {'line': b'writing omni_follower.egg-info/PKG-INFO\n'}
+[3.436314] (omni_follower) StdoutLine: {'line': b'writing dependency_links to omni_follower.egg-info/dependency_links.txt\n'}
+[3.436696] (omni_follower) StdoutLine: {'line': b'writing entry points to omni_follower.egg-info/entry_points.txt\n'}
+[3.436823] (omni_follower) StdoutLine: {'line': b'writing requirements to omni_follower.egg-info/requires.txt\n'}
+[3.436927] (omni_follower) StdoutLine: {'line': b'writing top-level names to omni_follower.egg-info/top_level.txt\n'}
+[3.437015] (omni_follower) StdoutLine: {'line': b"writing manifest file 'omni_follower.egg-info/SOURCES.txt'\n"}
+[3.472899] (omni_follower) StdoutLine: {'line': b"reading manifest file 'omni_follower.egg-info/SOURCES.txt'\n"}
+[3.473421] (omni_follower) StdoutLine: {'line': b"writing manifest file 'omni_follower.egg-info/SOURCES.txt'\n"}
+[3.492624] (omni_follower) StdoutLine: {'line': b'running build_ext\n'}
+[3.492816] (omni_follower) StdoutLine: {'line': b'Creating /home/sho/ros_omni_1/ros_ws/install/omni_follower/lib/python3.12/site-packages/omni-follower.egg-link (link to .)\n'}
+[3.493567] (omni_follower) StdoutLine: {'line': b'Installing follower_controller script to /home/sho/ros_omni_1/ros_ws/install/omni_follower/lib/omni_follower\n'}
+[3.493734] (omni_follower) StdoutLine: {'line': b'Installing stm32_bridge script to /home/sho/ros_omni_1/ros_ws/install/omni_follower/lib/omni_follower\n'}
+[3.493822] (omni_follower) StdoutLine: {'line': b'Installing target_detector script to /home/sho/ros_omni_1/ros_ws/install/omni_follower/lib/omni_follower\n'}
+[3.494138] (omni_follower) StdoutLine: {'line': b'\n'}
+[3.494339] (omni_follower) StdoutLine: {'line': b'Installed /home/sho/ros_omni_1/ros_ws/build/omni_follower\n'}
+[3.494430] (omni_follower) StdoutLine: {'line': b'running symlink_data\n'}
+[3.494519] (omni_follower) StdoutLine: {'line': b'creating /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/ament_index\n'}
+[3.494601] (omni_follower) StdoutLine: {'line': b'creating /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/ament_index/resource_index\n'}
+[3.494679] (omni_follower) StdoutLine: {'line': b'creating /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/ament_index/resource_index/packages\n'}
+[3.494753] (omni_follower) StdoutLine: {'line': b'symbolically linking /home/sho/ros_omni_1/ros_ws/build/omni_follower/resource/omni_follower -> /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/ament_index/resource_index/packages\n'}
+[3.494827] (omni_follower) StdoutLine: {'line': b'symbolically linking /home/sho/ros_omni_1/ros_ws/build/omni_follower/package.xml -> /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/omni_follower\n'}
+[3.494896] (omni_follower) StdoutLine: {'line': b'creating /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/omni_follower/launch\n'}
+[3.495194] (omni_follower) StdoutLine: {'line': b'symbolically linking /home/sho/ros_omni_1/ros_ws/build/omni_follower/launch/follow_robot.launch.py -> /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/omni_follower/launch\n'}
+[3.495376] (omni_follower) StdoutLine: {'line': b'creating /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/omni_follower/config\n'}
+[3.495456] (omni_follower) StdoutLine: {'line': b'symbolically linking /home/sho/ros_omni_1/ros_ws/build/omni_follower/config/params.yaml -> /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/omni_follower/config\n'}
+[3.521300] (-) TimerEvent: {}
+[3.532074] (omni_follower) CommandEnded: {'returncode': 0}
+[3.621523] (-) TimerEvent: {}
+[3.646530] (omni_follower) JobEnded: {'identifier': 'omni_follower', 'rc': 0}
+[3.648461] (-) EventReactorShutdown: {}

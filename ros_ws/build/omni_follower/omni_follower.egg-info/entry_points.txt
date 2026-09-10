@@ -1,0 +1,4 @@
+[console_scripts]
+follower_controller = omni_follower.follower_controller:main
+stm32_bridge = omni_follower.stm32_bridge:main
+target_detector = omni_follower.target_detector:main

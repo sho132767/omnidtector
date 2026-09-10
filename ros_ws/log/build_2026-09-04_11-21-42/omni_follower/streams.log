@@ -1,0 +1,30 @@
+[2.792s] Invoking command in '/home/sho/ros_omni_1/ros_ws/build/omni_follower': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sho/ros_omni_1/ros_ws/build/omni_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sho/ros_omni_1/ros_ws/install/omni_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sho/ros_omni_1/ros_ws/build/omni_follower/build --no-deps symlink_data
+[3.221s] running develop
+[3.416s] running egg_info
+[3.416s] creating omni_follower.egg-info
+[3.434s] writing omni_follower.egg-info/PKG-INFO
+[3.435s] writing dependency_links to omni_follower.egg-info/dependency_links.txt
+[3.435s] writing entry points to omni_follower.egg-info/entry_points.txt
+[3.435s] writing requirements to omni_follower.egg-info/requires.txt
+[3.435s] writing top-level names to omni_follower.egg-info/top_level.txt
+[3.435s] writing manifest file 'omni_follower.egg-info/SOURCES.txt'
+[3.471s] reading manifest file 'omni_follower.egg-info/SOURCES.txt'
+[3.472s] writing manifest file 'omni_follower.egg-info/SOURCES.txt'
+[3.491s] running build_ext
+[3.491s] Creating /home/sho/ros_omni_1/ros_ws/install/omni_follower/lib/python3.12/site-packages/omni-follower.egg-link (link to .)
+[3.492s] Installing follower_controller script to /home/sho/ros_omni_1/ros_ws/install/omni_follower/lib/omni_follower
+[3.492s] Installing stm32_bridge script to /home/sho/ros_omni_1/ros_ws/install/omni_follower/lib/omni_follower
+[3.492s] Installing target_detector script to /home/sho/ros_omni_1/ros_ws/install/omni_follower/lib/omni_follower
+[3.492s] 
+[3.493s] Installed /home/sho/ros_omni_1/ros_ws/build/omni_follower
+[3.493s] running symlink_data
+[3.493s] creating /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/ament_index
+[3.493s] creating /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/ament_index/resource_index
+[3.493s] creating /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/ament_index/resource_index/packages
+[3.493s] symbolically linking /home/sho/ros_omni_1/ros_ws/build/omni_follower/resource/omni_follower -> /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/ament_index/resource_index/packages
+[3.493s] symbolically linking /home/sho/ros_omni_1/ros_ws/build/omni_follower/package.xml -> /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/omni_follower
+[3.493s] creating /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/omni_follower/launch
+[3.493s] symbolically linking /home/sho/ros_omni_1/ros_ws/build/omni_follower/launch/follow_robot.launch.py -> /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/omni_follower/launch
+[3.494s] creating /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/omni_follower/config
+[3.494s] symbolically linking /home/sho/ros_omni_1/ros_ws/build/omni_follower/config/params.yaml -> /home/sho/ros_omni_1/ros_ws/install/omni_follower/share/omni_follower/config
+[3.531s] Invoked command in '/home/sho/ros_omni_1/ros_ws/build/omni_follower' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sho/ros_omni_1/ros_ws/build/omni_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sho/ros_omni_1/ros_ws/install/omni_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sho/ros_omni_1/ros_ws/build/omni_follower/build --no-deps symlink_data
